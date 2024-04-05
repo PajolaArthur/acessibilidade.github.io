@@ -46,6 +46,27 @@
     <script src="JS/acessibilidade.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
+    <!-- MENTOR -->
+	<script>
+  (function (w, d, s, o, f, js, fjs) {
+    w["botsonic_widget"] = o;
+    w[o] =
+      w[o] ||
+      function () {
+        (w[o].q = w[o].q || []).push(arguments);
+      };
+    (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]);
+    js.id = o;
+    js.src = f;
+    js.async = 1;
+    fjs.parentNode.insertBefore(js, fjs);
+  })(window, document, "script", "Botsonic", "https://widget.writesonic.com/CDN/botsonic.min.js");
+  Botsonic("init", {
+    serviceBaseUrl: "https://api.botsonic.ai",
+    token: "518ac38f-1d97-45a6-a62c-e3eb151dd0c4",
+  });
+</script>
+
 
 </head>
 <body data-spy="scroll" data-target="#navbar-nav-header" class="static-layout">
@@ -74,7 +95,7 @@
                     <a id="menu_quemsomos" class="nav-link" href="#who-we-are">Quem somos</a>
                 </li>
                 <li class="nav-item">
-                    <a id="menu_contato" class="nav-link" href="contact.html">Contact</a>
+                    <a id="menu_contato" class="nav-link" href="contact.html">Contato</a>
                 </li>
             </ul>
         </div>
